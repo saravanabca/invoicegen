@@ -1,0 +1,493 @@
+/* Invoice  */
+
+.page_heading{
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 600;
+}
+.create_btn{
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px 0px 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.create_btn a {
+    color: white !important;
+}
+.add_icon{
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+.transactions_btn{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border: none;
+    padding: 10px 13px 10px 40px;
+    outline: none;
+}
+.main_head2{
+    margin: 2rem 0rem;
+}
+.date_filter{
+    padding-left: 15px;
+}
+.date_filter input{
+    border: none;
+    /* margin-top: 10px; */
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 10px 13px 10px 40px;
+    outline: none;
+
+}
+
+.payment_btn{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    padding: 10px 13px 10px 40px;
+    margin-left: 15px;
+    outline: none;
+}
+.search_filter{
+
+}
+.search_filter input{
+    margin: 10px 10px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.des_asefilter_btn{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border: none;
+    padding: 10px 13px 10px 40px;
+    margin-left: 15px;
+    outline: none;
+}
+.data_tabel{
+    margin-top: 1rem;
+}
+
+
+/* data table */
+
+
+.data_tabel{
+    width: 100% !important;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data_tabel thead {
+    background-color: #f8f9fa;
+}
+
+.data_tabel th {
+    /* padding: 12px; */
+ 
+}
+
+.data_tabel td {
+    /* padding: 12px 35px; */
+    padding: 15px 10px 12px 11px !important;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.data_tabel tr .invoice_action_head{
+    text-align: center !important;
+}
+
+.data_tabel td span {
+    display: block;
+    margin-top: 5px;
+    color: #6c757d;
+}
+
+.data_tabel tr th{
+    border-bottom: none !important;
+    padding: 12px 20px 12px 10px !important;
+
+    text-align: left !important;
+    /* border-bottom: 1px solid #dee2e6; */
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+
+.status {
+    display: inline-block;
+    padding: 4px 0px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.status.paid {
+    background-color: #319E56;
+    color: white !important;
+    font-size: 14px;
+    width: 60%;
+}
+
+.status.partially-paid {
+    background-color: #E88C38;
+    color: white !important;
+    font-size: 14px;
+    /* width: 80%; */
+
+}
+
+.status.pending {
+    background-color: #D9A815;
+    color: white !important;
+    font-size: 14px;
+    /* width: 60%; */
+
+}
+
+.view-btn, .download-btn {
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.view-btn {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.download-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+.view_icon{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    width: 35%;
+}
+.download_icon{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    width: 20%;
+}
+
+.extra_menu_icon{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    /* width: 20%; */
+    margin: 0px 15px;
+}
+
+.dropdown-menu-invoice{
+    margin: 0px 15px !important;
+    transform: translate(-136px, 38px) !important;
+    min-width: 11rem !important;
+    bottom: 100px;
+    z-index:9999 !important;
+}
+.dropdown-invoice-list{
+    color: black;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+.dropdown-menu-invoice a img{
+    margin-right: 10px;
+}
+
+
+/* summary buttons */
+
+summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary .total {
+    background: #947445;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.summary .paid {
+    background: #319E56;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.summary .pending {
+    background: #D9A815;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+ /* Emety invoice */
+ .emety_invoice{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.emety_invoice img{
+    width: 40%;
+}
+.create_btn_placeholder{
+    border: none;
+    background: #34a853;
+    color: white;
+    border-radius: 5px;
+    margin-left: 2rem;
+    /* margin: 10px 10px 0px 20px; */
+    padding: 7px 20px;
+    font-size: 17px;
+    font-family: "Barlow", sans-serif;
+}
+.create_btn_placeholder img{
+    width: 12%;
+}
+
+
+
+/* Invoice-view */
+.modal-header{
+    border-bottom: none !important;
+}
+
+
+.invoice_view_title {
+    margin-bottom: 0px !important;
+    font-size: 20px;
+    color: #4285F4;
+    font-weight: 600;
+}
+#view_invoice .modal-header{
+    padding: 0px 20px;
+}
+.view_action_btn button{
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    margin: 10px 10px 10px 10px;
+    padding: 4px 10px;
+}
+.view_email_btn{
+    background-color: #FBBC05;
+
+}
+.view_action_btn img{
+    padding-right: 10px;
+}
+.view_whatsapp_btn{
+    background-color: var(--btngreen);
+
+}
+.view_download_btn{
+    background-color: var(--blue);
+}
+
+
+.main_view_invoice{
+    background-color: #A6A6A6;
+    padding: 30px 20px;
+    height: 900px;
+    overflow-y: scroll;
+}
+.invoice_preview{
+    background-color: white;
+    padding: 20px 30px;
+}
+.company_logo{
+    width: 50%;
+}
+
+@media (min-width: 576px) {
+    .invoice_view_dialog {
+        max-width: 1440px !important;
+    }
+}
+
+
+
+.style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+.style-3::-webkit-scrollbar {
+    width: 4px;
+    background-color: #f5f5f5;
+    height: 2px;
+}
+
+.style-3::-webkit-scrollbar-thumb {
+    background-color: #be4410;
+}
+
+.template_img{
+    cursor: pointer;
+}
+
+.template_img {
+    position: relative;
+    display: inline-block; /* Ensure the container behaves as expected */
+}
+
+.template_img .corner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.invoice_preview {
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.invoice_preview.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#invoice_preview input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+
+/* select customer name */
+.invoice {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.invoice-table th, .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.invoice-table th {
+    background-color: #f1f1f1;
+}
+
+.invoice-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.invoice-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.invoice-table td p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.totals {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.totals p {
+    margin: 5px 0;
+}
+
+.totals .total {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.notes, .bank-details {
+    margin-bottom: 20px;
+}
+
+.notes h3, .bank-details h3 {
+    margin-bottom: 10px;
+}
+
+.notes p, .bank-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.signature {
+    text-align: right;
+}
+
+.signature p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.signature img {
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+/* temp-2 */
+.template-2 .inv_title_tem2{
+    background-color: var(--blue);
+    padding: 10px;
+    color: white;
+}
+
+.template-3 .inv_title_tem3{
+    /* background-color: var(--blue); */
+    /* padding: 10px; */
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}

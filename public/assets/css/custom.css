@@ -1,0 +1,85 @@
+/* validation */
+
+.validate_border{
+    border: 1px solid #ed9aa2;
+}
+
+/* template tool */
+.txt_edit_tool{
+    border: 1px solid #0000003b!important;
+    padding: 0.7rem;
+    width: 70%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.txt_edit_canvas{
+    border: 1px solid #0000003b!important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+/* max-height:50vh; */
+width: 100% !important;
+}
+.txt_edit_tool i {
+cursor:pointer;
+}
+
+
+.toolbar {
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* margin-bottom: 10px; */
+    border-bottom: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
+}
+.toolbar button, .toolbar select, .toolbar input {
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    /* font-size: 20px; */
+}
+.editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    overflow-y: auto;
+}
+.editor:focus-visible{
+    border-color: #ccc !important;
+    outline: none !important;
+}
+.html-output {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* margin-top: 5px; */
+    white-space: pre-wrap; /* Ensure HTML is displayed with line breaks */
+}
+
+.side_border{
+    border-left: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+.image-controls {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.image-controls button {
+    margin: 0 5px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.img-icon{
+    width: 3%;
+    height: 90%;
+    margin-left: 5px;
+    margin-top: 3px;
+    
+}

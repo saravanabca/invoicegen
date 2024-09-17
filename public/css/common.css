@@ -1,0 +1,320 @@
+.bg_main{
+    background-color: #4285F4;
+}
+.logo_clr{
+    color: #4285F4 !important;
+}
+.avatar{
+    width: 30px;
+    border-radius: 1rem;
+}
+
+.dropdown-menu[data-bs-popper]{
+    left: auto !important;
+    margin-top: 5px !important;
+    right: 50px !important;
+}
+.logout{
+    color: white;
+    text-decoration: none !important;
+}
+
+.navbar-nav li a {
+    color: #4285F4 !important;
+    font-size: 18px;
+}
+
+.topnav_dropdown li a {
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+}
+.topnav_dropdown ul {
+    border-radius: 1rem;
+    padding: .5rem .5rem !important;
+}
+
+.topnav_dropimg{
+    margin-right: 2rem;
+}
+
+.navbar-nav li p{
+    color: white !important;
+}
+
+/* .nav-item .active{
+    font-weight: 700;
+    border-bottom: 4px solid #FBBC05;
+} */
+
+/* .active_nav{
+    position: relative;
+} */
+
+.nav-item .active{
+    font-weight: 700;
+    border-bottom: 5px solid #FBBC05;
+    position: absolute;
+    bottom: -20px;
+    z-index: 99999;
+    /* top: 0; */
+    height: 10px;
+    width: 100%;
+}
+.nav-item .login{
+ color: white !important;
+    cursor: pointer;
+}
+.nav-item .signup{
+    background-color: #FBBC05;
+    border-radius: 2rem;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+.navbar{
+    position: sticky;
+    /* width: 100%; */
+    top:0;
+    z-index: 100;
+
+}
+.navbar-nav{
+    align-items: center;
+}
+.logo_txt{
+    font-family: "Pattaya", sans-serif !important;
+    font-size: 37px;
+    font-weight: 500 !important;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+}
+
+@media (max-width: 992px){
+    #navbarNav{
+        display: none !important;
+    }
+    
+    }
+    
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .signup {
+        /* padding-left: 5.5rem !important; */
+    }}
+
+    .main-menu{
+        border-radius: 27px;
+        border: 2px transparent solid;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        margin-right: 15rem;
+    }
+    .main-menu li a {
+        font-weight: 600;
+    }
+
+   .login-nav .nav-item{
+    /* margin-right: 3rem */
+   }
+   
+/******************** 2.Banner *******************/
+
+.banner_side_content{
+    margin-top: 6rem;
+}
+.ban_title_2 span{
+    color: #34A853;
+}
+.ban_title_2{
+    font-weight: 600;
+}
+.ban_signup_btn{
+    background-color: #FBBC05;
+    border-radius: 5rem;
+    padding: 0.7rem;
+    border: none;
+    /* margin-right: 1rem; */
+    color: white;
+    padding-right: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    /* letter-spacing: 1.5px; */
+    width: 60%;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.ban_img1{
+    width: 60%;
+    height:100%;
+    float: right;
+}
+.ban_content{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.section-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.underline-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.underline {
+    /* width: 30px; */
+    height: 3px;
+}
+
+.underline.blue {
+    background-color: blue;
+    width: 140px;
+}
+
+.underline.yellow {
+    background-color: yellow;
+    width: 140px;
+}
+
+.underline.green {
+    background-color: green;
+    width: 140px;
+}
+
+.underline.red {
+    background-color: red;
+    width: 140px;
+}
+
+
+.navbar {
+    position: relative;
+    z-index: 10; /* Ensure the navbar stays on top */
+}
+
+.banner-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; /* SVG will be behind other content */
+}
+
+.banner-container .row {
+    position: relative;
+    z-index: 5; /* Ensure content is above the SVG but below the navbar */
+}
+
+.ban_img1 {
+    position: relative;
+    z-index: 15; /* Ensure the banner image stays on top */
+    padding: 30% 0;
+}
+
+
+/* Avatar */
+
+.notify{
+    border: none;
+    background: none;
+    padding: 0px 15px;
+}
+.notify img{
+    width: 50%;
+}
+
+.dropdown .avatar.profile-user {
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+.brround {
+    border-radius: 50% !important;
+}
+.dropdown-menu-arrow.dropdown-menu-end:before{
+    left: auto;
+    right: 12px;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu-arrow:before {
+        content:none;
+        width: 13px;
+        height: 13px;
+        background: #fff;
+        position: absolute;
+        top: -7px;
+        right: 28px;
+        transform: rotate(45deg);
+        border-top: 1px solid #eaedf1;
+        border-left: 1px solid #eaedf1;
+    }
+}
+
+@media (min-width: 768px) {
+    .app-header {
+        padding-right: 10px;
+        padding-left: 285px;
+        z-index: 9 !important;
+    }
+}
+
+.profile-1 a {
+    margin-right: 3rem;
+    cursor: pointer;
+
+}
+
+.avatar-initials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: var(--blue);
+    font-size: 18px;
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.home_dropdown{
+    padding: 12px;
+}
+.role-name{
+    background: #4285F4;
+    color: white !important;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.drop_mail{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.drop_menu img{
+padding-right: 12px;
+}
+.drop_menu a{
+font-size: 15px;
+font-weight: 600;
+}

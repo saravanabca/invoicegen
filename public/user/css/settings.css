@@ -1,0 +1,1112 @@
+.page_heading{
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 600;
+}
+.setting_height{
+    /* height: 70vh; */
+}
+
+.error-message{
+    color: red;
+    text-align: left;
+    position: absolute;
+}
+.error-message{
+    font-size: 13px;
+}
+.danger-border{
+    border: 1px solid red !important;
+}
+.success-border{
+    border: 1px solid green !important;
+}
+
+.template_btn{
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px 0px 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.temp_modal .btn-close {
+    margin:-5.5rem -10.5rem 3.5rem 50rem !important;
+}
+
+.main_template_modal .template_img{
+    width: 100%;
+}
+.main_template_modal{
+    padding: 10px;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.temp_add_title{
+    text-align: center;
+    padding: 20px;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 2rem 2rem 0rem 0rem !important;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+
+#template_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+#template_modal .modal-header{
+    border: none !important;
+    padding: 0px;
+}
+
+
+.style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F3F3F3;
+    width: 20%;
+}
+
+.style-3::-webkit-scrollbar {
+    width: 4px;
+    background-color: #f5f5f5;
+    height: 2px;
+    
+}
+
+.style-3::-webkit-scrollbar-thumb {
+    background-color: #A6A6A6;
+    border-radius: 10px;
+}
+@media (min-width: 576px) {
+    .template-dialog {
+        max-width: 800px !important;
+    }
+}
+
+.template_btn a {
+    color: white !important;
+}
+.add_icon{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    width: 13%;
+}
+.add_icon_temp{
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+.add_icon_terms{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    width: 10%;
+}
+
+.add_icon_notes{
+    padding-right: 6px;
+    padding-bottom: 4px;
+    width: 15%;
+}
+
+.settings_main_div{
+    border: 1px solid #b4b4b466;
+    padding: 30px 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.setting_side_nav{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #a6a6a661 !important;
+    height: 550px;
+}
+
+.setting_side_nav ul{
+    flex-direction: column;
+    display: flex;
+}
+.setting_side_nav ul li .nav-link{
+    border: none;
+    font-size: 17px;
+    width:100%;
+   text-align: left;
+    color: #A6A6A6;
+    background:none;
+    border-radius: 8px;
+
+
+}
+.setting_side_nav ul li .active{
+    background-color: #4285F4;
+    color: white;
+    /* padding: 10px 10px; */
+    width:100%;
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+}
+
+.upload_profile {
+    background: #F3F3F3;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.drop_user_img{
+    background: #F3F3F3;
+    /* padding: 40px 15px; */
+    text-align: center;
+    height: 100px;
+    cursor: pointer;
+}
+.logimg_text{
+    cursor: pointer;
+    color: #A6A6A6;
+}
+.upload_img_txt{
+    color: #A6A6A6;
+}
+.user_input_label{
+    color: #A6A6A6;
+}
+.user_input{
+    border: 1px solid #F3F3F7;
+    outline: none;
+    width: 100%;
+    padding: 7px 10px;
+}
+.update_profile{
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+.drop_user_img label{
+    width: 100%;
+}
+
+.user_logimg_text {
+    cursor: pointer;
+    color: #A6A6A6;
+    height: 100px;
+    margin-top: 2rem;
+    /* height: 100px; */
+    /* margin-top: 6rem; */
+    font-size: 15px;
+}
+.upload_icon{
+    width: 16px !important;
+}
+#previewImageUser{
+    height: 60px;
+}
+
+/********************************************* Comapny *********************************************/
+
+.company_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.company_data{
+    margin: 25px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 10px;
+}
+.company_action_btns button{
+    border: none;
+    padding: 4px 4px 4px 10px;
+    border-radius: 5px;
+   
+}
+.company_action_btns .company_edit_btn{
+background-color: #FBBC05;
+color: white;
+
+}
+.company_action_btns .company_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+}
+.company_action_btns .company_edit_btn img{
+    width: 35%;
+    margin-top: 4px;
+    padding: 0px 3px;
+}
+.company_action_btns .company_delete_btn img{
+    width: 60%;
+    margin-top: 4px;
+    padding: 0px 3px;
+}
+.company_img_show{
+    width: 25%;
+}
+
+input[name=select_company] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+.add_company_btn{
+    margin: 5px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+.company_placeholder_img{
+    width: 40%;
+}
+
+/* Bank */
+
+.bank_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.bank_data{
+    margin: 25px 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 20px 10px;
+}
+.bank_action_btns button{
+    border: none;
+    /* padding: 5px 25px; */
+    border-radius: 5px;
+   
+}
+.bank_action_btns .bank_edit_btn{
+background-color: #FBBC05;
+color: white;
+padding: 2px 27px 2px 12px;
+}
+.bank_action_btns .bank_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+    padding:2px 20px 2px 5px;
+}
+.bank_action_btns .bank_edit_btn img{
+    margin: 4px 5px;
+    width: 40%;
+}
+
+.bank_action_btns .bank_delete_btn img{
+    margin: 4px 5px;
+    width: 40%;
+}
+input[name=select_bank] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+
+.add_bank_btn{
+    margin: 10px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px 6px 25px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+
+/* notes */
+
+.notes_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.notes_data{
+    margin: 25px 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 20px 10px;
+}
+.notes_action_btns button{
+    border: none;
+    padding: 1px 6px;
+    border-radius: 5px;
+   
+}
+.notes_action_btns .notes_edit_btn{
+background-color: #FBBC05;
+color: white;
+
+}
+.notes_action_btns .notes_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+}
+.notes_action_btns .notes_edit_btn img{
+    margin: 4px 5px;
+    width: 24%;
+
+}
+.notes_action_btns .notes_delete_btn img{
+    margin: 4px 5px;
+    width: 33%;
+
+}
+
+input[name=select_notes] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+
+
+.add_notes_btn{
+    margin: 10px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 0px 6px 0px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+
+
+
+/* terms */
+
+.terms_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.terms_data{
+    margin: 25px 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 20px 10px;
+}
+.terms_action_btns button{
+    border: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+   
+}
+.terms_action_btns .terms_edit_btn{
+background-color: #FBBC05;
+color: white;
+
+}
+.terms_action_btns .terms_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+}
+.terms_action_btns .terms_edit_btn img{
+    margin: 4px 5px;
+    width: 25%;
+}
+
+.terms_action_btns .terms_delete_btn img{
+    margin: 4px 5px;
+    width: 33%;
+}
+
+input[name=select_terms] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+
+.add_terms_btn{
+    margin: 10px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px 6px 25px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+
+
+/********************************************* signature *********************************************/
+
+.signature_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.signature_data{
+    margin: 25px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 10px;
+}
+.signature_action_btns button{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+   
+}
+.signature_action_btns .signature_edit_btn{
+background-color: #FBBC05;
+color: white;
+
+}
+.signature_action_btns .signature_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+}
+.signature_action_btns .signature_edit_btn img{
+    width: 43%;
+    margin-top: 4px;
+    padding: 0px 7px;
+}
+
+.signature_action_btns .signature_delete_btn img{
+    width: 47%;
+    margin-top: 4px;
+    padding: 0px 7px;
+}
+
+input[name=select_signature] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+
+
+.add_signature_btn{
+    margin: 10px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 3px 6px 3px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+.signature_placeholder_img{
+    width: 20%;
+}
+
+
+
+/********************************************* Role *********************************************/
+
+.role_head{
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.role_data{
+    margin: 25px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 10px;
+}
+.role_action_btns button{
+    border: none;
+    /* padding: 5px 25px; */
+    border-radius: 5px;
+   
+}
+.role_action_btns .role_edit_btn{
+background-color: #FBBC05;
+color: white;
+
+}
+.role_action_btns .role_delete_btn{
+    margin: 0px 20px;
+    background-color: #F47166;
+    color: white;
+}
+.role_action_btns .role_edit_btn img{
+    /* margin: 0px 10px; */
+    width: 20%;
+}
+input[name=select_role] {
+    accent-color: #34A853;
+    box-shadow: #34A853;
+    height: 20px;
+    width: 15px;
+}
+
+
+.add_role_btn{
+    margin: 10px 10px;
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 10px 6px 25px;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+input[name="email"], input[name="phone"] {
+    cursor: not-allowed !important;
+    background-color: #ffffff; 
+    /* pointer-events: none;  */
+}
+
+
+
+/********************************************* company modal  *********************************************/
+
+.file-name {
+    display: block;
+    margin-left: auto;
+    font-size: 14px;
+    margin-top: 2px;
+    overflow: hidden;
+    /* margin-top: 10px; */
+    color: black;
+    font-weight: 500;
+}
+
+.remove-file {
+    /* position: absolute; */
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+    /* font-size: 20px; */
+    display: none;
+    /* margin: 0px 10px; */
+}
+.remove-file img{
+    width: 30%;
+}
+
+
+
+#previewImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* .drop_company_logo{
+    background: #F3F3F3;
+    min-height: 13rem;
+    text-align: center;
+} */
+
+.drop_company_logo {
+    /* width: 200px; */
+    height: 230px;
+    /* border: 2px dashed #ccc; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+.drop_company_logo label{
+    width: 100%;
+}
+#company_add_form h6{
+    font-family: "Barlow", sans-serif;
+}
+
+#previewImageCompany{
+    margin-top: 40px;
+    width: 90%;
+    height: 130px;
+    object-fit: contain;
+}
+.company_logimg_text{
+    cursor: pointer;
+    color: #A6A6A6;
+    height: 100px;
+    margin-top: 6rem;
+    font-size: 15px;
+}
+.company_upload_img_txt{
+    color: #A6A6A6;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.company_add_title{
+    text-align: center;
+    padding: 20px;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 2rem 2rem 0rem 0rem !important;
+    font-size: 20px;
+    border: none;
+}
+.notes_title{
+    font-weight: 600;
+    font-size: 21px;
+
+}
+.notes-align{
+    text-align: justify;
+}
+.terms_title{
+    font-weight: 600;
+    font-size: 21px;
+}
+#company_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#company_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+@media (min-width: 576px) {
+    .company-dialog {
+        max-width: 800px !important;
+    }
+}
+.company_add_main{
+    padding: 0px 30px 10px 30px;
+
+}
+#company_add_form input{
+box-shadow: none !important;
+height: 45px !important;
+}
+#company_add_form  label{
+    font-size: 15px !important;
+    top: -4px !important;
+    /* color: #000;
+    font-weight: 490; */
+}
+.optional_txt{
+    color: #A6A6A6;
+    font-size: 15px;
+    font-family: "Barlow", sans-serif;
+}
+
+.gst_fetch_btn{
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 7px;
+    padding: 8px 30px;
+    margin-top: 30px;
+
+}
+.bank_fetch_btn{
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+
+.bank_defalut_align{
+    padding-left: 5%;
+}
+
+.company_address_main{
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.shipping_address_main{
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.cancel_btn{
+border: none;
+background-color: #B1B1B1;
+color: white;
+border-radius: 4px;
+padding: 5px 30px;
+}
+.save_company_details{
+    border: none;
+    background-color: #34A853;
+    color: white;
+    border-radius: 4px;
+padding: 5px 30px;
+
+}
+.error-message{
+    color: red;
+    text-align: left;
+    position: absolute;
+}
+
+.danger-border{
+    border: 1px solid red !important;
+}
+.success-border{
+    border: 1px solid green !important;
+
+}
+
+
+
+.hidden {
+    display: none;
+}
+.copy_shipping_address{
+    cursor: pointer;
+}
+
+/******************************************* bank details ********************************************/
+
+#bank_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#bank_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+
+
+/****************************************** signature details *********************************************/
+
+#signature_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#signature_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+
+.signature_button li .active{
+      background-color: #4285F4;
+      color: rgb(255, 255, 255);
+      padding: 4px 35px 4px 25px;
+      /* width: 100%; */
+      border-radius: 30px;
+      border: none;
+      text-align: left;
+      transition: content 1s;
+      /* margin-left: 4rem; */
+}
+.upload_btn_main .active{
+    position: absolute;
+
+}
+
+.draw_btn_main .active{
+    position: absolute;
+    left: 8rem;
+    margin-left: 0rem !important;
+}
+
+.signature_button .draw_btn_signature{
+        /* background-color: #4285F4; */
+        color: black;
+        padding: 4px 35px 4px 40px;
+        /* width: 100%; */
+        border-radius: 30px;
+        border: none;
+        text-align: left;
+        /* position: relative; */
+        margin-left: 5rem;
+}
+
+.signature_button .upload_btn_signature{
+    /* background-color: #4285F4; */
+    color: black;
+    padding: 4px 35px 4px 25px;
+    /* width: 100%; */
+    border-radius: 30px;
+    border: none;
+    text-align: left;
+    /* position: relative; */
+    /* margin-left: 4rem; */
+}
+.drop_signature_image {
+    /* width: 200px; */
+    height: 150px;
+    /* border: 2px dashed #ccc; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    text-align: center;
+    background-color: #F3F3F3
+    ;
+}
+.draw_sign_canvas {
+    /* width: 200px; */
+    height: 150px;
+    /* border: 2px dashed #ccc; */
+  
+    background-color: #F3F3F3;
+    position: relative;
+}
+#signatureCanvas{
+    width: 100%;
+    height: 100%;
+}
+.remove_draw_sign{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+
+}
+
+#previewImageSignature{
+    height: 105px;
+    object-fit: scale-down;
+}
+
+.signature_img_text{
+    cursor: pointer;
+    color: #A6A6A6;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#signature_modal .tab-content
+{
+    height: 180px;
+}
+
+.signaturename{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.signature_img img{
+    width: 50%;
+}
+
+.placeholder_images{
+    text-align: center;
+}
+
+/********************************************* Notes details *********************************************/
+
+#notes_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#notes_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+
+.signature_input_label{
+width: 100%;
+}
+ #signature_input{
+    height: 150px;
+
+ }
+
+
+/* signature details */
+
+#signature_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#signature_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+
+.notetitile {
+    outline: none !important;
+    /* box-shadow: none !important; */
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.termstitile {
+    outline: none !important;
+    /* box-shadow: none !important; */
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+
+
+.notes_input{
+    width: 100%;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    padding: 5px;
+    height: 124px;
+}
+
+/********************************************* Terms details *********************************************/
+
+#terms_modal .modal-header {
+    border-bottom: none;
+    padding: 0px !important;
+}
+#terms_modal .modal-content {
+    border-radius: 4rem 4rem 3rem 3rem !important;
+}
+
+.terms_input{
+    width: 100%;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    padding: 5px;
+    height: 124px;
+}
+.terms_placeholder_img{
+    width: 30%;
+}
+
+/********************************************* Docs details *********************************************/
+
+.invoice_prefix_btn{
+    background: var(--btngreen);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px 5px 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.select_invoice_prefix{
+    width: 100%;
+    border-color: #F3F3F3;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.invoice_prefix_title{
+    font-size: 17px;
+    font-weight: 600;
+}
+.font_fam_title{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.select_font_fam{
+    width: 100%;
+    border-color: #F3F3F3;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.font_style_title{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.select_font_style{
+    width: 100%;
+    border-color: #F3F3F3;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.doc_txt_title{
+    font-size: 17px;
+    font-weight: 600;
+}
+.doc_txt_color{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #F3F3F3;
+}
+
+
+/********************************************* Bank details *********************************************/
+
+.bank_add_main{
+    padding: 0px 30px 10px 30px;
+
+}
+
+#bank_details{
+    
+}
+
+#bankContainer,#signatureContainer,#notesContainer,#termsContainer{
+    height: 435px;
+    overflow-y: auto;
+}
+
+.bank_add_title{
+    text-align: center;
+    padding: 20px;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 2rem 2rem 0rem 0rem !important;
+    font-size: 20px;
+    border: none;
+}
+
+.save_bank_details{
+    border: none;
+    background-color: #34A853;
+    color: white;
+    border-radius: 4px;
+padding: 5px 30px;
+
+}
+#bank_add_form input{
+    box-shadow: none !important;
+    height: 45px !important;
+    }
+    #bank_add_form  label{
+        font-size: 15px !important;
+        top: -4px !important;
+    }
+    .confirm_img{
+        /* position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%); */
+
+        position: absolute;
+        top: 29%;
+        right: 54px;
+        transform: translateY(-50%);
+
+    }
+    .user_confirm_img{
+        position: absolute;
+        top: 45%;
+        right: 30px;
+        transform: translateY(-50%);
+    }
